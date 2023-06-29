@@ -1,4 +1,6 @@
-# Simple Shopper
+# React_Shopper
+
+## Simple Shopper
 
 This project is a simple simulate to a shopper application that contains two tabs one for market items and another for cart displays items that user added to his cart.
 
