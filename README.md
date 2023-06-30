@@ -4,6 +4,8 @@
 
 This project is a simple simulate to a shopper application that contains two tabs one for market items and another for cart displays items that user added to his cart.
 
+# `You can see this app page from the gh_pages branch`
+
 ## Notes
 
 - This project has been inspired from "Pure React A step-by-step guide to mastering React" book.
