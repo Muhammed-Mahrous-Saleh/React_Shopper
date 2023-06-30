@@ -8,9 +8,9 @@ class NavLink extends React.Component {
 
     render() {
         return (
-            <a onClick={this.handleClick}>
+            <span onClick={this.handleClick}>
                 {this.props.children}
-            </a>
+            </span>
         );
     }
 }
