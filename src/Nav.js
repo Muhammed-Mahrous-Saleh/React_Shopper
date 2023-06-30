@@ -13,9 +13,9 @@ const Nav = ({ activeTab, onTabChange, itemCounts, total }) => (
             </li>
         </ul >
         <div className='summary'>
-            <i class="fa-solid fa-cart-shopping"></i>
-            {itemCounts>1&&(<span> {itemCounts} Items </span>)}
-            {itemCounts===1&&(<span> {itemCounts} Item </span>)}
+            <i className="fa-solid fa-cart-shopping"></i>
+            {itemCounts > 1 && (<span> {itemCounts} Items </span>)}
+            {itemCounts === 1 && (<span> {itemCounts} Item </span>)}
             <span>(${total})</span>
         </div>
     </nav >

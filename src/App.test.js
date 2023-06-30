@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+  const root = createRoot(div); // createRoot(container!) if you use TypeScript
+  root.render(<App tab="home" />);
 });
